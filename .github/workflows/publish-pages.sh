@@ -698,7 +698,7 @@ create_radio_html() {
         return {
             start(title, artist) {
                 TabScroller.stop();
-                const full = `${title} - ${artist}`;
+                const full = `${title} - ${artist} | Jri Radio | `;
                 _text = full + PADDING;
                 _pos = 0;
                 _tick();
@@ -1670,7 +1670,7 @@ create_player_html() {
         return {
             start(title, artist) {
                 TabScroller.stop();
-                const full = `${title} - ${artist}`;
+                const full = `${title} - ${artist} | Jri Player | `;
                 _text = full + PAD;
                 _pos = 0;
                 _tick();
